@@ -1,0 +1,198 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif; 
+    position: relative;
+    background: url(/assets/kobby-mendez-xBFTjrMIC0c-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    font-weight: 700;
+
+}
+
+.logo-container{
+    padding-left: 25px;
+    max-height: auto;
+        
+}
+
+.img-logo {
+    max-height: 100%;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.ul-navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(255 180 41);
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    background-color: #C98E20;
+    color: white;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    padding-right: 25px ;
+
+}
+
+.search-box input {
+    border-radius: 10px;
+    padding: 5px 0px 5px 20px;
+    border: 3px solid  rgb(255 180 41);
+    font-family: 'Lato', sans-serif; 
+    position: relative; 
+    background: url(/assets/icons8-search-50.png) no-repeat left  ;
+    background-size: 20px;   
+
+}
+
+.hero-landing {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: url(/assets/kelsey-chance-tAH2cA_BL5g-unsplash.jpg) no-repeat center;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+.hero-container-1{
+    height: auto;
+    width: 40%;
+}
+
+.hero-container-2{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.hero-slogan{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.hero-text{
+    color: white;
+    font-size: 25px;
+
+}
+
+.hero-button {
+    background-color: transparent;
+    border: 2px solid white;
+    width: 160px;
+    height: 60px;
+}
+
+.hero-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-button:hover{
+    background-color: #C98E20;
+
+}
+
+.hero-slogan:hover{
+    color: rgb(255 180 41);
+}
+
+.hero-text:hover{
+    color: rgb(255 180 41);
+}
+
+.quienes-somos{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    text-align: center;
+    padding-right: 50px;
+
+
+}
+
+.somos-title-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 100px;
+
+}
+
+.somos-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 25px;
+    text-align: right;
+
+}
+
+.somos-title{
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+}
+
+.somos-text{
+    font-size: 25px;
+    color:black;
+
+}
